@@ -1,3 +1,4 @@
+import 'package:blogging_app/screens/onboarding_screen.dart';
 import 'package:blogging_app/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -13,9 +14,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        // primarySwatch: Colors.blue,
+        primaryColor: const Color.fromRGBO(55, 106, 237, 1),
+        fontFamily: 'Avenir',
       ),
-      home: const SplashScreen(),
+      home: const OnboardingScreen(),
     );
   }
 }
