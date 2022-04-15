@@ -28,7 +28,11 @@ class _SplashScreenState extends State<SplashScreen> {
                     color: Colors.white,
                   ),
                 )),
-            const Text('C L U B'),
+            const Text(
+              '     C L U B',
+              style: TextStyle(
+                  fontSize: 48, color: Color.fromRGBO(55, 106, 237, 1)),
+            ),
           ],
         ),
       ),
